@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description></description>
    <name>BDDCucumberDemo</name>
-   <tag></tag>
+   <tag>bdd</tag>
    <comment></comment>
    <testCaseGuid>9a29895e-1769-4d2b-a565-0c576ec6c161</testCaseGuid>
 </TestCaseEntity>

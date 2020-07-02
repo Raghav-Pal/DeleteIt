@@ -23,7 +23,7 @@ not_run: CucumberKW.runFeatureFolder('Include/features')
 
 not_run: CucumberKW.runFeatureFolderWithTags('Include/features', ((['smoke']) as String[]))
 
-CucumberKW.runWithCucumberRunner(CucumberRunner.class)
+not_run: CucumberKW.runWithCucumberRunner(CucumberRunner.class)
 
 CucumberKW.runWithCucumberRunner(CucuClass.class)
 

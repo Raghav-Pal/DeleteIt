@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ClearTextDemo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8cda9c20-11f2-4223-940a-ca84deff4240</testCaseGuid>
+   <variable>
+      <defaultValue>'//input[@name=\'btnG\']'</defaultValue>
+      <description></description>
+      <id>b095bf56-1c55-482f-98a6-55d85c5969b9</id>
+      <masked>false</masked>
+      <name>xpath</name>
+   </variable>
+</TestCaseEntity>

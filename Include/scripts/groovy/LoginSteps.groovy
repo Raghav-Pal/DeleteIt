@@ -42,35 +42,34 @@ import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 
 
-
 class LoginSteps {
-	
+
 	@Given("user is on login page")
 	public void user_is_on_login_page() {
 		println " I am inside GIVEN step"
 		WebUI.openBrowser('')
 		WebUI.navigateToUrl('https://orangehrm-demo-6x.orangehrmlive.com/auth/login')
 	}
-	
+
 	@When("user enters (.*) and (.*)")
 	public void user_enters_username_and_password(String username, String password) {
 		println " I am inside WHEN step"
 		WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_OrangeHRM Demo_txtUsername'), username)
 		WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_OrangeHRM Demo_txtPassword'), password)
 	}
-	
+
 	@And("clicks on login button")
 	public void clicks_on_login_button() {
 		println " I am inside AND step"
 		WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/input_OrangeHRM Demo_Submit'))
 	}
-	
-//	@Then("user is navigated to the home page")
-//	public void user_is_navigated_to_the_home_page() {
-//		println " I am inside THEN step"
-//		WebUI.verifyTextPresent('Dashboard', false)
-//	}
-	
+
+	//	@Then("user is navigated to the home page")
+	//	public void user_is_navigated_to_the_home_page() {
+	//		println " I am inside THEN step"
+	//		WebUI.verifyTextPresent('Dashboard', false)
+	//	}
+
 	@Then("check this (.*) on the screen")
 	public void check_this_message_on_the_screen(String message) {
 		println " I am inside AND step"

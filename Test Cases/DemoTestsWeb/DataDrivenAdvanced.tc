@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DataDrivenAdvanced</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>25a555a7-b376-40e2-8cd6-0e220403aeff</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d57f98d6-ac1c-4f94-b4d6-4f9ec6e946ac</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>18f6b5a6-f6b6-4692-abab-d3daab4e6830</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f399ada9-5e61-465b-9376-859e8a6de53b</id>
+      <masked>false</masked>
+      <name>search</name>
+   </variable>
+</TestCaseEntity>

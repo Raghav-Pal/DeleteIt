@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>The inaccessible links are shown in console</description>
+   <name>VerifyAllLinksAccessible</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c37ba213-5555-4fe3-8c63-5944abbac20a</testCaseGuid>
+</TestCaseEntity>

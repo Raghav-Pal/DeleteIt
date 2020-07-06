@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Calculator</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a2bcb22b-ae2c-4994-af05-a206351c9bfa</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>056acc80-c290-4b19-a874-585b6aba99d6</id>
+      <masked>false</masked>
+      <name>num</name>
+   </variable>
+</TestCaseEntity>

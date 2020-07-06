@@ -6,7 +6,7 @@
    <UUID>4cd72d60-8c13-4e1e-b61a-4e1b61c74ff5</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>D:\Projects\Katalon\TrainingJuly2020Demo\TrainingJuly2020Demo.prj</projectFileLocation>
+   <projectFileLocation>/Users/raghav/Documents/KatalonDemoProject/TrainingJuly2020Demo.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

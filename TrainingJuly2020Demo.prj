@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project>
-   <description></description>
+   <description>Browserstack Desired Capabilities added under Project > Settings > Desired Capabilities > Custom
+
+Browserstack account - Automation.DevOps@gmail.com | T.......</description>
    <name>TrainingJuly2020Demo</name>
    <tag></tag>
    <UUID>4cd72d60-8c13-4e1e-b61a-4e1b61c74ff5</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>/Users/raghav/Documents/KatalonDemoProject/TrainingJuly2020Demo.prj</projectFileLocation>
+   <projectFileLocation>D:\Projects\Katalon\TrainingJuly2020Demo\TrainingJuly2020Demo.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

@@ -15,4 +15,19 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://automationstepbystep.blogspot.com/')
+
+WebUI.setText(findTestObject('Object Repository/Page_Automation Step by Step/input_Email_email'), 'abc@def.com')
+
+WebUI.setEncryptedText(findTestObject('Page_Automation Step by Step/input_Password_psw (1)'), '4nvbrPglk7k=')
+
+WebUI.setEncryptedText(findTestObject('Page_Automation Step by Step/input_Repeat Password_psw-repeat (1)'), '4nvbrPglk7k=')
+
+WebUI.click(findTestObject('Page_Automation Step by Step/button_Sign Up (1)'))
+
+WebUI.closeBrowser()
 

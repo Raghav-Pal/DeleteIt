@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>this was recorded directly on a Kobiton remote device
+Step 1 : Add Kobiton plugin
+Download and put the jar in project folder > Plugins > platform
+Step 2 : Connecto to Kobiton account > Preferences > Katalon > Kobiton
+Step 3 : On Record and Spy Mobile, you will get option for Kobiton</description>
+   <name>MobileTestDemo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3ad85722-391e-43ba-bb9e-ff18c5c838ee</testCaseGuid>
+</TestCaseEntity>

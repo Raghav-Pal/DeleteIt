@@ -17,31 +17,31 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.startApplication('kobiton-store:68838', true)
 
-Mobile.tap(findTestObject('android.widget.TextView0 - No account yet Create one'), 10)
+Mobile.tap(findTestObject('android.widget.TextView0 - No account yet Create one'), 0)
 
-Mobile.setText(findTestObject('android.widget.EditText0'), 'Raghav', 10)
+Mobile.setText(findTestObject('android.widget.EditText0'), 'Raghav', 0)
 
-Mobile.setText(findTestObject('android.widget.EditText0 (1)'), 'MyCity', 10)
+Mobile.setText(findTestObject('android.widget.EditText0 (1)'), 'MyCity', 0)
 
 Mobile.hideKeyboard()
 
-Mobile.setText(findTestObject('android.widget.EditText0 (2)'), 'abc@def.com', 10)
+Mobile.setText(findTestObject('android.widget.EditText0 (2)'), 'abc@def.com', 0)
 
-Mobile.setText(findTestObject('android.widget.EditText0 (3)'), '123-456-7890', 10)
+Mobile.setText(findTestObject('android.widget.EditText0 (3)'), '123-456-7890', 0)
 
-Mobile.setText(findTestObject('android.widget.EditText0 (4)'), '1234', 10)
+Mobile.setText(findTestObject('android.widget.EditText0 (4)'), '1234', 0)
 
-Mobile.setText(findTestObject('android.widget.EditText0 (5)'), '1234', 10)
+Mobile.setText(findTestObject('android.widget.EditText0 (5)'), '1234', 0)
 
 Mobile.switchToLandscape()
 
 Mobile.switchToPortrait()
 
-Mobile.tap(findTestObject('android.widget.EditText0 (5)'), 10)
+Mobile.tap(findTestObject('android.widget.EditText0 (5)'), 0)
 
 Mobile.hideKeyboard()
 
-Mobile.tap(findTestObject('android.widget.Button0 - Create Account'), 10)
+Mobile.tap(findTestObject('android.widget.Button0 - Create Account'), 0)
 
 Mobile.pressBack()
 

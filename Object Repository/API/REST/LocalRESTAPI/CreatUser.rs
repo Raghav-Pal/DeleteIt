@@ -1,19 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>GetCustomerDetails</name>
+   <name>CreatUser</name>
    <tag></tag>
-   <elementGuidId>14cbecb5-2c93-40fa-8f48-f5fd5fbb3273</elementGuidId>
+   <elementGuidId>3fbb88c5-debf-4ed6-b4b3-4136f2641f5b</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
-   <httpBodyContent></httpBodyContent>
-   <httpBodyType></httpBodyType>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;{\n\t\t\t\&quot;firstName\&quot;\t:\t\&quot;Nikola\&quot;,\n\t\t\t\&quot;lastName\&quot;\t:\t\&quot;Tesla\&quot;,\n\t\t\t\&quot;subjectId\&quot;\t:\t1\n\t\t}&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/json</value>
+   </httpHeaderProperties>
    <katalonVersion>7.5.5</katalonVersion>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://reqres.in/api/users?page=2</restUrl>
+   <restRequestMethod>POST</restRequestMethod>
+   <restUrl>http://localhost:3000/users</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -33,19 +44,6 @@ import internal.GlobalVariable as GlobalVariable
 
 RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
-ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
-
-
-WS.verifyResponseStatusCode(response, 200)
-
-assertThat(response.getStatusCode()).isEqualTo(200)
-WS.verifyElementPropertyValue(response, 'data[5].first_name', &quot;Rachel&quot;)
-
-//GlobalVariable.FirstName = response.data[5].first_name
-
-JsonSlurper slurper = new JsonSlurper()
-Map parsedJson = slurper.parseText(response)
-def value = parsedJson.data[5].first_name
-println &quot;  >>  ..  value is &quot;+value</verificationScript>
+ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

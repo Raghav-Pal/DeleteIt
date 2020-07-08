@@ -9,4 +9,14 @@
       <initValue>findTestData('LoginData')</initValue>
       <name>Data</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Alex'</initValue>
+      <name>FirstName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'AW'</initValue>
+      <name>CountryCode</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

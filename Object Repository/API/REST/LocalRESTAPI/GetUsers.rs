@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>GetCustomerDetails</name>
+   <name>GetUsers</name>
    <tag></tag>
-   <elementGuidId>14cbecb5-2c93-40fa-8f48-f5fd5fbb3273</elementGuidId>
+   <elementGuidId>35b1f06d-83a2-48c5-b317-d448ae5871e4</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <followRedirects>false</followRedirects>
@@ -13,7 +13,7 @@
    <katalonVersion>7.5.5</katalonVersion>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://reqres.in/api/users?page=2</restUrl>
+   <restUrl>http://localhost:3000/users</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -33,19 +33,6 @@ import internal.GlobalVariable as GlobalVariable
 
 RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
-ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
-
-
-WS.verifyResponseStatusCode(response, 200)
-
-assertThat(response.getStatusCode()).isEqualTo(200)
-WS.verifyElementPropertyValue(response, 'data[5].first_name', &quot;Rachel&quot;)
-
-//GlobalVariable.FirstName = response.data[5].first_name
-
-JsonSlurper slurper = new JsonSlurper()
-Map parsedJson = slurper.parseText(response)
-def value = parsedJson.data[5].first_name
-println &quot;  >>  ..  value is &quot;+value</verificationScript>
+ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

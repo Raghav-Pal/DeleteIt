@@ -15,35 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.startApplication('kobiton-store:68838', true)
+not_run: CucumberKW.runWithCucumberRunner(CucumberRunnerDemo2.class)
 
-Mobile.tap(findTestObject('MobileObj/android.widget.TextView0 - No account yet Create one'), 0)
-
-Mobile.setText(findTestObject('MobileObj/android.widget.EditText0'), 'Raghav', 0)
-
-Mobile.setText(findTestObject('MobileObj/android.widget.EditText0 (1)'), 'MyCity', 0)
-
-Mobile.hideKeyboard()
-
-Mobile.setText(findTestObject('MobileObj/android.widget.EditText0 (2)'), 'abc@def.com', 0)
-
-Mobile.setText(findTestObject('MobileObj/android.widget.EditText0 (3)'), '123-456-7890', 0)
-
-Mobile.setText(findTestObject('MobileObj/android.widget.EditText0 (4)'), '1234', 0)
-
-Mobile.setText(findTestObject('MobileObj/android.widget.EditText0 (5)'), '1234', 0)
-
-Mobile.switchToLandscape()
-
-Mobile.switchToPortrait()
-
-Mobile.tap(findTestObject('MobileObj/android.widget.EditText0 (5)'), 0)
-
-Mobile.hideKeyboard()
-
-Mobile.tap(findTestObject('MobileObj/android.widget.Button0 - Create Account'), 0)
-
-Mobile.pressBack()
-
-Mobile.closeApplication()
+CucumberKW.runFeatureFileWithTags('Include/features/demo2.feature', ((['@smoke', '@reg']) as String[]))
 

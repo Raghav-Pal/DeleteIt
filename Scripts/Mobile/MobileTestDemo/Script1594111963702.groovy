@@ -17,31 +17,31 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.startApplication('kobiton-store:38631', true)
 
-Mobile.tap(findTestObject('android.widget.TextView0 - App'), 10)
+Mobile.tap(findTestObject('MobileObj/android.widget.TextView0 - App'), 10)
 
 Mobile.pressBack()
 
-Mobile.tap(findTestObject('android.widget.TextView0 - Animation'), 10)
+Mobile.tap(findTestObject('MobileObj/android.widget.TextView0 - Animation'), 10)
 
-Mobile.tap(findTestObject('android.widget.TextView0 - Cloning'), 10)
+Mobile.tap(findTestObject('MobileObj/android.widget.TextView0 - Cloning'), 10)
 
-Mobile.tap(findTestObject('android.widget.Button0 - Run'), 10)
+Mobile.tap(findTestObject('MobileObj/android.widget.Button0 - Run'), 10)
 
-Mobile.tap(findTestObject('android.widget.Button0 - Run'), 10)
-
-Mobile.pressBack()
+Mobile.tap(findTestObject('MobileObj/android.widget.Button0 - Run'), 10)
 
 Mobile.pressBack()
 
-Mobile.tap(findTestObject('android.widget.TextView0 - Text'), 10)
+Mobile.pressBack()
 
-Mobile.tap(findTestObject('android.widget.TextView0 - LogTextBox'), 10)
+Mobile.tap(findTestObject('MobileObj/android.widget.TextView0 - Text'), 10)
 
-Mobile.tap(findTestObject('android.widget.Button0 - Add'), 10)
+Mobile.tap(findTestObject('MobileObj/android.widget.TextView0 - LogTextBox'), 10)
 
-Mobile.tap(findTestObject('android.widget.TextView0 - This is a test'), 10)
+Mobile.tap(findTestObject('MobileObj/android.widget.Button0 - Add'), 10)
 
-Mobile.tap(findTestObject('android.widget.Button0 - Add'), 10)
+Mobile.tap(findTestObject('MobileObj/android.widget.TextView0 - This is a test'), 10)
+
+Mobile.tap(findTestObject('MobileObj/android.widget.Button0 - Add'), 10)
 
 Mobile.pressBack()
 
